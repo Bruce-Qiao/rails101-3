@@ -32,7 +32,7 @@
     <tbody>
       <% @posts.each do |post| %>
         <tr>
-          <td><%= post.content %></td>
+          <td class="col-md-6"><%= post.content %></td>
           <td><%= post.user.email %></td>
           <td><%= post.created_at %></td>
         </tr>
